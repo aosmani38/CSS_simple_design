@@ -1,0 +1,229 @@
+
+
+main {
+  margin-left: 5%;
+  margin-right: 1%;
+}
+
+
+#logo_area {
+  display: flex;
+}
+
+#logo_text {
+  padding-left: 1em;
+  padding-right: 0;
+  padding-top: 4em; 
+}
+
+
+#logotext2 {
+  color: #008278;
+  font-family: "Montserrat"; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#logotext1 {
+  font-family: "Montserrat"; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+#logotext3 {
+  font-family: "Montserrat"; 
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#museum_logo {
+  width: 105px;
+  height: 105px;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.titles {
+  padding-left: 0;
+  margin-right: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+/*
+.header_element {
+  display: block;
+}
+*/
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2em;
+  padding-right: 1em;
+  position: relative;
+}
+
+.tile {
+  padding: 1em;
+}
+.tile2{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+figure img{
+  width: 85%;
+  height: 80%;
+}
+
+.bodytext {
+  margin-left: 0%;
+  margin-right: 12%;
+  margin-top: 4%;
+  font-family: "Montserrat"; 
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.bodytext2 {
+  margin-left: 0%;
+  margin-right: 12%;
+  margin-top: 4%;
+  font-family: "Montserrat"; 
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+main {
+  display: flex;
+}
+
+#stripe {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  z-index: -1;
+  background-color: rgba(0, 130, 120, 0.1);
+  border: none;
+}
+
+
+.caption1 {
+  margin-right: 12%;
+  font-family: "Montserrat"; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+ 
+}
+.caption2 {
+  margin-right: 10%;
+  font-family: "Montserrat"; 
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+ 
+}
+
+.header_element {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  margin-right: 50px;
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 1000px) {
+  
+  #stripe {
+    margin-top: 0;    
+  }
+  
+  .header_container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .bodytext {
+    font-size: 18px; 
+    }
+
+  .caption1 {
+    font-size: 14px;
+
+  }
+
+   .caption2 {
+    font-size: 14px;
+
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .titles {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 24px;
+    
+  }
+
+  #img2 {
+    order: 1;
+    margin-top: 20px;
+  }
+
+  .img1 {
+    width: 90%;
+    order: 1;
+  }
+  .bodytext2 {
+    order: 3;
+    margin-top: 70px;
+    
+  }
+  .caption2 {
+    order: 2;
+    margin-bottom: 50px;
+    
+  }
+  .caption1 {
+    margin-bottom: 50px;
+  }
+  
+  
+}
+
+
